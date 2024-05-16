@@ -25,8 +25,6 @@ SECRET_KEY = 'django-insecure-@5ye=8v*nh97=0fqm0wvk6xm*!sss0#3)u68uqnycl7+6urqo_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -69,7 +67,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'pv_model_api.wsgi.application'
 
-
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
